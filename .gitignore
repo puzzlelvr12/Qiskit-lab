@@ -1,0 +1,38 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter / IDE files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*~
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets & Environment Variables
+.env
+.env.*
+*.secret
+secrets/
+
+# Private educational and interview materials (strictly local, never pushed)
+private/
+
+# Streamlit local config & cache
+.streamlit/

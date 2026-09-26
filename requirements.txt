@@ -1,0 +1,18 @@
+# QubitLab Dependencies
+# Core Quantum Computing
+qiskit>=1.1.0,<2.0.0
+qiskit-aer>=0.15.0
+
+# Scientific & Numerical Computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Visualization & Interactive Web Interface
+matplotlib>=3.7.0
+pylatexenc>=2.10
+plotly>=5.18.0
+streamlit>=1.30.0
+
+# Testing
+pytest>=7.0.0
