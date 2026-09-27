@@ -13,15 +13,15 @@ Instead of merely displaying static figures or theoretical curves, QubitLab exec
 
 ## What You Can Explore
 
-1. **🔬 State Playground:** Prepare canonical states ($|0\rangle, |1\rangle, |+\rangle, |-\rangle, |i\rangle$) or customize arbitrary single-qubit states using Bloch sphere polar ($\theta$) and azimuthal ($\phi$) angles. Inspect the resulting 3D Bloch sphere, computational basis measurement statistics, and the Qiskit circuit.
-2. **⚡ Noise Explorer:** Subject quantum states to **Bit-Flip (Pauli X)**, **Phase-Flip (Pauli Z)**, and **Depolarizing** noise channels. Observe state decoherence visually as the Bloch vector contracts inside the unit sphere, transitioning from a pure state to a mixed state with quantifiable purity $\text{Tr}(\rho^2)$.
-3. **🛠️ Interactive QEC Walkthrough:** Deterministically inject specific Pauli errors (No Error, Flip Qubit 0, Flip Qubit 1, Flip Qubit 2, Flip Two Qubits, or Phase-Flip Qubit 0). Trace the complete lifecycle step-by-step:
+1.  State Playground:** Prepare canonical states ($|0\rangle, |1\rangle, |+\rangle, |-\rangle, |i\rangle$) or customize arbitrary single-qubit states using Bloch sphere polar ($\theta$) and azimuthal ($\phi$) angles. Inspect the resulting 3D Bloch sphere, computational basis measurement statistics, and the Qiskit circuit.
+2. Noise Explorer:** Subject quantum states to **Bit-Flip (Pauli X)**, **Phase-Flip (Pauli Z)**, and **Depolarizing** noise channels. Observe state decoherence visually as the Bloch vector contracts inside the unit sphere, transitioning from a pure state to a mixed state with quantifiable purity $\text{Tr}(\rho^2)$.
+3. Interactive QEC Walkthrough:** Deterministically inject specific Pauli errors (No Error, Flip Qubit 0, Flip Qubit 1, Flip Qubit 2, Flip Two Qubits, or Phase-Flip Qubit 0). Trace the complete lifecycle step-by-step:
    $$\text{Encoding} \longrightarrow \text{Channel Noise} \longrightarrow \text{Ancilla Parity Checks} \longrightarrow \text{Syndrome Diagnosis} \longrightarrow \text{Correction} \longrightarrow \text{Decoded Readout}$$
-4. **⚖️ QEC ON vs. OFF:** Compare an unprotected single-qubit transmission directly against the 3-qubit repetition code at the identical physical noise probability $p$. Measure the empirical error reduction factor.
-5. **📈 Theory vs. Simulation Benchmark:** Run live Monte Carlo sweeps across physical noise probabilities $p \in [0.00, 0.50]$ with customizable shot counts. Directly compare simulated frequencies with analytical predictions ($P_L = 3p^2 - 2p^3$).
-6. **🎲 Single-Trial Inspector:** Step through a single stochastic trial in "slow motion," observing how random Bernoulli bit flips strike physical qubits and how ancilla parity measurements pinpoint which qubit to flip.
-7. **🎯 Predict & Verify:** Test your quantum intuition on specific error scenarios (such as two simultaneous bit flips or a phase-flip error) and verify what the quantum circuit actually does.
-8. **📚 Knowledge Base:** In-app explanations of key concepts including non-demolition syndrome extraction, the No-Cloning Theorem, majority voting failure, and real-world fault tolerance.
+4. QEC ON vs. OFF: Compare an unprotected single-qubit transmission directly against the 3-qubit repetition code at the identical physical noise probability $p$. Measure the empirical error reduction factor.
+5. Theory vs. Simulation Benchmark: Run live Monte Carlo sweeps across physical noise probabilities $p \in [0.00, 0.50]$ with customizable shot counts. Directly compare simulated frequencies with analytical predictions ($P_L = 3p^2 - 2p^3$).
+6. Single-Trial Inspector: Step through a single stochastic trial in "slow motion," observing how random Bernoulli bit flips strike physical qubits and how ancilla parity measurements pinpoint which qubit to flip.
+7. Predict & Verify: Test your quantum intuition on specific error scenarios (such as two simultaneous bit flips or a phase-flip error) and verify what the quantum circuit actually does.
+8. Knowledge Base: In-app explanations of key concepts including non-demolition syndrome extraction, the No-Cloning Theorem, majority voting failure, and real-world fault tolerance.
 
 ---
 
